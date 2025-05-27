@@ -1,22 +1,21 @@
 {
-  "phases": {
-    "setup": {
-      "nixpkgsArchive": "https://github.com/NixOS/nixpkgs/archive/refs/tags/23.05.tar.gz"
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacksConfigPath": "./nixpacks.toml",
+    "buildCommand": "npm run build",
+    "startCommand": "npm start",
+    "envVars": {
+      "NODE_ENV": "production",
+      "PORT": "3000"
     },
-    "install": {
-      "cmds": [
-        "npm install"
-      ]
-    },
-    "build": {
-      "cmds": [
-        "npm run build"
-      ]
-    },
-    "start": {
-      "cmds": [
-        "npm start"
-      ]
+    "engines": {
+      "node": "20.x"
     }
+  },
+  "deploy": {
+    "provider": "RAILWAY",
+    "project": "nama-project-railway-kamu",
+    "domain": "custom-domain.com",
+    "rootDir": "."
   }
 }
