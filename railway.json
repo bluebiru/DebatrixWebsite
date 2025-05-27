@@ -1,14 +1,22 @@
 {
-  "$schema": "https://railway.com/railway.schema.json",
-  "build": {
-    "nixpacksPlan": {
-      "providers": ["python", "node"],
-      "phases": {
-        "install": {
-          "dependsOn": ["setup"],
-          "cmds": ["npm ci"]
-        }
-      }
+  "phases": {
+    "setup": {
+      "nixpkgsArchive": "https://github.com/NixOS/nixpkgs/archive/refs/tags/23.05.tar.gz"
+    },
+    "install": {
+      "cmds": [
+        "npm install"
+      ]
+    },
+    "build": {
+      "cmds": [
+        "npm run build"
+      ]
+    },
+    "start": {
+      "cmds": [
+        "npm start"
+      ]
     }
-    }
+  }
 }
