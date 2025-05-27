@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo \"Tidak ada build step untuk proyek ini\"",
   },
   "repository": {
     "type": "git",
