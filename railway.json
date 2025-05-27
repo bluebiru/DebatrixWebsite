@@ -14,8 +14,8 @@
   },
   "deploy": {
     "provider": "RAILWAY",
-    "project": "nama-project-railway-kamu",
-    "domain": "custom-domain.com",
+    "project": "DebatrixWebsite",
+    "domain": "http://debatrix.my.id/",
     "rootDir": "."
   }
 }
