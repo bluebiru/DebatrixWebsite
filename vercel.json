@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "public/**",
-      "use": "@vercel/static-build"
-    }
-  ],
+  "installCommand": "echo 'No install command needed for static frontend'",
+  "buildCommand": "echo 'No build command needed for static frontend'",
+  "outputDirectory": "public",
   "routes": [
     {
       "src": "/(.*)",
