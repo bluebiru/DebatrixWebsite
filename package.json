@@ -5,6 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "build": "echo \"Tidak ada build step untuk proyek ini\"",
+    "migrate": "npx sequelize db:migrate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,8 +24,5 @@
   "dependencies": {
     "express": "^5.1.0",
     "socket.io": "^4.8.1"
-  },
-  "devDependencies": {
-    "sequelize-cli": "^6.6.3"
   }
 }
