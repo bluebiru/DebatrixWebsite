@@ -13,4 +13,4 @@
 ## About
 
 Platform ini dicetus oleh Bintang Brava Magastara dan Muhammad Adly Pasha.
-Visi misi kami adalah membuat tempat untuk debat yang tepat, tidak seperti di sosial media lainnya, di sini kmau bisa mengeluarkan argumen kamu. Ada juga diskusi untuk kalian yang mau diskusi.
+Visi misi kami adalah membuat tempat untuk debat yang tepat, tidak seperti di sosial media lainnya, di sini kamu bisa mengeluarkan argumen kamu. Ada juga diskusi untuk kalian yang mau diskusi.
